@@ -2,6 +2,7 @@
     text-align: right;
     margin-right: 15px;
 }
+
 .coupon{
     box-sizing: border-box; /*width 계산을 border까지 포함해서 계산*/
     background-color: black;
@@ -149,6 +150,13 @@
     margin-left: 40px;
     color: white;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
 .lastinfo{
     flex-direction: column;
     align-items: center;
