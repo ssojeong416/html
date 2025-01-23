@@ -1,0 +1,194 @@
+.cpclose{
+    text-align: right;
+    margin-right: 15px;
+}
+.coupon{
+    box-sizing: border-box; /*width 계산을 border까지 포함해서 계산*/
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align:left;
+    font-weight: bold;
+    font-size: 10px;
+    margin:auto ;
+    
+    
+}
+
+.mainbanner{
+    position: absolute;
+    display: flex;
+    right: 0;
+    list-style-type: none;
+    margin-bottom: 50px;
+    color: #999;
+    gap: 10px;
+}
+.info{
+    padding: 0.4rem 0;
+    transition: 0.3s;
+    font-size: 10px;
+
+}
+
+
+.navihead {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.mainnavi {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    width: 100%;
+   
+}
+
+.navi{
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    font-size: 13px;
+}
+.mypage{ 
+    display: flex;
+    gap: 30px;
+    margin-left: auto;
+}
+.title01, .title02 {
+    display: inline-block;
+}
+
+
+.title02{
+    color: #999; 
+    font-weight: 400;
+    line-height: 1; 
+    margin-left: 20px;  
+}
+#newimg {
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    width: 500px;
+}
+.text{
+    list-style-type: none;
+    font-size: 10px;
+    color: rgb(92,92,92);
+    
+}
+.deco{
+    text-decoration: line-through;
+}
+.blue{
+    color: #008BCC;
+    font-weight: 900;
+}
+.nestingBox {
+    width: 1ch;
+    height: 10px;
+    margin-left: 100px;
+    
+}
+
+#nesting1{background: gray; margin-bottom: 50px;}
+#nesting2{background: #501704; margin-bottom: 50px;}
+#nesting3{background: black; margin-bottom: 50px;}
+#nesting4{background: #946E28; margin-bottom: 50px;}
+#nesting5{background: #000082; margin-bottom: 50px;}
+#nesting6{background: #474747; margin-bottom: 50px;}
+#nesting7{background: #A9A9A9; margin-bottom: 50px;}
+
+#maincontainer01{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+    
+}
+#maincontainer02{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+
+}
+#maincontainer03{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+
+}
+.pick{
+    box-sizing: border-box; /*width 계산을 border까지 포함해서 계산*/
+    background-color: #614242;
+    color: white;
+    padding: 10px;
+    text-align:center;
+    font-size: 10px;
+    margin: 60px; ;
+    
+}
+.mapcontainer{
+    display: flex;
+    align-items: center;
+    width: 92%;
+    max-width: 1680px;
+    margin: 0 auto;
+    position: relative;
+    background-color: gray;
+}
+.maptext{
+    margin-left: 40px;
+    color: white;
+}
+.lastinfo{
+    flex-direction: column;
+    align-items: center;
+}
+.information{
+    margin-bottom: 20px;
+}
+.fieldmain{
+    text-align: center;
+}
+.field{
+    text-align: center;
+    color: gray;
+}
+.value{
+    color:#B7B7B7;
+}
+.lastbanner{
+    box-sizing: border-box; 
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align:center;
+    font-size: 10px;
+    text-align: center;
+}
+.labanner{
+    list-style-type: none;
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    font-size:15px;
+}
+.snshref{
+    text-align: center;
+    gap: 10px;
+}
+
+
+
